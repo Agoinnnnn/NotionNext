@@ -27,7 +27,7 @@ FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, // 开关
 RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
 
 // 星空雨特效 黑夜模式才会生效
-STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, // 开关
+STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，我是一个很菜的大学生, Hi，我还是一个入门的ctfer,欢迎来到我的博客🎉',
